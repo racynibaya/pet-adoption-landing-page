@@ -22,4 +22,12 @@ const obs = new IntersectionObserver(
   }
 );
 
-obs.observe(heroSectionEl);
+const navIconEl = document.querySelectorAll(".nav-icon");
+
+navIconEl.forEach((el) => {
+  el.addEventListener("click", (e) => {
+    document.querySelector(".main-nav").classList.toggle("nav-open");
+  });
+});
+
+// navIconEl.addEventListener("click", (e) => {});

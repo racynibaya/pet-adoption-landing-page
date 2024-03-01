@@ -16,6 +16,7 @@
     />
 
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/queries.css" />
     <title>Pet Adoption</title>
 
     <script defer src="https://unpkg.com/@phosphor-icons/web"></script>
@@ -24,6 +25,7 @@
     <header class="header">
       <div class="header-container">
         <nav class="main-nav">
+          <i class="ph ph-x nav-icon"></i>
           <div>
             <img class="logo" src="img/logo.png" alt="Logo of this website" />
           </div>
@@ -46,6 +48,9 @@
             </li>
           </ul>
         </nav>
+        <div class="nav-icon-container">
+          <i class="ph ph-list nav-icon"></i>
+        </div>
       </div>
     </header>
     <main>
@@ -221,40 +226,42 @@
       </section>
 
       <section class="cta-section">
-        <div class="cta container">
-          <div class="grid grid-cols-2 gap-md">
-            <div class="cta_left">
-              <p class="cta_heading">Find Your Perfect Companion Today!</p>
+        <div class="container">
+          <div class="cta">
+            <div class="grid grid-cols-2 gap-md">
+              <div class="cta_left">
+                <p class="cta_heading">Find Your Perfect Companion Today!</p>
 
-              <p class="cta_description">
-                Looking to add a furry friend to your family? Look no further!
-                FurEver Finds is here to help you find the perfect companion.
-              </p>
-            </div>
-
-            <div class="cta_right">
-              <div class="cta_right_container">
-                <input
-                  class="cta-input"
-                  placeholder="Your work email"
-                  type="email"
-                  name="email"
-                  id="email"
-                />
-                <a href="#" class="btn--cta">Get started</a>
+                <p class="cta_description">
+                  Looking to add a furry friend to your family? Look no further!
+                  FurEver Finds is here to help you find the perfect companion.
+                </p>
               </div>
 
-              <ul class="cta_steps">
-                <li>
-                  <span><i class="ph ph-check"></i></span>Browse pets
-                </li>
-                <li>
-                  <span><i class="ph ph-check"></i></span>Meet your match
-                </li>
-                <li>
-                  <span><i class="ph ph-check"></i></span>Approve & apply
-                </li>
-              </ul>
+              <div class="cta_right">
+                <div class="cta_right_container">
+                  <input
+                    class="cta-input"
+                    placeholder="Your work email"
+                    type="email"
+                    name="email"
+                    id="email"
+                  />
+                  <a href="#" class="btn--cta">Get started</a>
+                </div>
+
+                <ul class="cta_steps">
+                  <li>
+                    <span><i class="ph ph-check"></i></span>Browse pets
+                  </li>
+                  <li>
+                    <span><i class="ph ph-check"></i></span>Meet your match
+                  </li>
+                  <li>
+                    <span><i class="ph ph-check"></i></span>Approve & apply
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
