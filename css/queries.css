@@ -87,9 +87,9 @@
   }
 
   .nav-icon-container {
-    opacity: 1;
-    visibility: visible;
-    pointer-events: visible;
+    display: flex;
+    justify-content: end;
+    padding: 3.2rem 2.4rem;
   }
 
   .nav-open.main-nav {
