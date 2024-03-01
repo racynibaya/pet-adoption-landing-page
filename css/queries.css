@@ -1,10 +1,10 @@
 /* 1344px */
 @media (max-width: 84em) {
-  .header-container {
+  .nav {
     max-width: 120rem;
   }
 
-  .main-nav {
+  .nav {
     padding: 3.2rem 0;
   }
 }
@@ -15,7 +15,7 @@
     font-size: 56.25%;
   }
 
-  .main-nav {
+  .nav {
     padding: 3.2rem;
   }
 
@@ -27,7 +27,7 @@
     padding: 9.6rem 3.2rem;
   }
 
-  .cta_steps {
+  .cta__steps {
     gap: 2.4rem;
   }
 
@@ -50,12 +50,12 @@
     padding: 4.8rem 0;
   }
 
-  .cta_steps {
+  .cta__steps {
     gap: 0.5rem;
     font-size: 1.2rem;
   }
 
-  .main-nav {
+  .nav {
     background-color: rgba(255, 255, 255, 0.97);
     position: absolute;
     top: 0;
@@ -86,13 +86,13 @@
     gap: 3.2rem;
   }
 
-  .nav-icon-container {
+  .header__container {
     display: flex;
     justify-content: end;
     padding: 3.2rem 2.4rem;
   }
 
-  .nav-open.main-nav {
+  .nav-open.nav {
     position: relative;
     opacity: 1;
     pointer-events: auto;
@@ -106,7 +106,7 @@
 }
 
 @media (max-width: 52em) {
-  .hero_image-container {
+  .hero__image-container {
     display: none;
   }
 

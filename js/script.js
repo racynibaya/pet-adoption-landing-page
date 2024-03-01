@@ -22,11 +22,14 @@ const obs = new IntersectionObserver(
   }
 );
 
-const navIconEl = document.querySelectorAll(".nav-icon");
+const navIconEl = [
+  document.querySelector(".nav__icon"),
+  document.querySelector(".header__icon"),
+];
 
 navIconEl.forEach((el) => {
   el.addEventListener("click", (e) => {
-    document.querySelector(".main-nav").classList.toggle("nav-open");
+    document.querySelector(".nav").classList.toggle("nav-open");
   });
 });
 
