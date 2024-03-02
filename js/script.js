@@ -23,13 +23,13 @@ const obs = new IntersectionObserver(
 );
 
 const navIconEl = [
-  document.querySelector(".nav__icon"),
-  document.querySelector(".header__icon"),
+  document.querySelector(".icon--open"),
+  document.querySelector(".icon--close"),
 ];
 
 navIconEl.forEach((el) => {
   el.addEventListener("click", (e) => {
-    document.querySelector(".nav").classList.toggle("nav-open");
+    document.querySelector(".header").classList.toggle("nav-open");
   });
 });
 
